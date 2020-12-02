@@ -8,3 +8,9 @@ var n = d.getMinutes();  document.getElementById("minute").innerHTML = n;
     var d = new Date();
 var n = d.getSeconds();  document.getElementById("second").innerHTML = n;
 }, 1000);
+
+setInterval(() => {
+    var d = new Date();
+    var n = d.getMilliseconds();
+    document.getElementById('milis').innerHTML= n;
+}, 0);
